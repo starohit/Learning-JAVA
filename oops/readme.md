@@ -39,7 +39,9 @@ INHERITANCE
 
 ABSTRACTION
 
-      // Abstract class
+    Abstraction is a concept in object-oriented programming that lets you show only essential attributes and hides unnecessary information in your code.
+
+    // Abstract class
     abstract class Animal {
       // Abstract method (does not have a body)
       public abstract void animalSound();
