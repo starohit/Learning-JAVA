@@ -1,6 +1,8 @@
 INHERITANCE
 
   Inheritance allows classes to inherit attributes and methods of other classes.
+  
+  Example:
 
     class Animal {
 
