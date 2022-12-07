@@ -100,3 +100,7 @@ POLYMORPHISM
         myCat.animalSound();
       }
     }
+    
+  NOTE:
+    
+    Inheritance and polymorphism are very useful for code reusability. You can reuse the attributes and methods of an existing class when you create a new class.
