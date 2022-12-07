@@ -39,7 +39,7 @@ INHERITANCE
 
 ABSTRACTION
 
-    Abstraction is a concept in object-oriented programming that lets you show only essential attributes and hides unnecessary information in your code.
+  Abstraction is a concept in object-oriented programming that lets you show only essential attributes and hides unnecessary information in your code.
 
     // Abstract class
     abstract class Animal {
