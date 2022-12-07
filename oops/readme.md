@@ -68,7 +68,7 @@ INHERITANCE
 
 ABSTRACTION
 
-  Abstraction is a concept in object-oriented programming that lets you show only essential attributes and hides unnecessary information in your code.
+  -> Abstraction is a concept in object-oriented programming that lets you show only essential attributes and hides unnecessary information in your code.
 
     // Abstract class
     abstract class Animal {
@@ -98,7 +98,7 @@ ABSTRACTION
 
 POLYMORPHISM
 
-  Polymorphism refers to the ability of an object to take on many forms. Polymorphism normally occurs when we have many classes that are related to each other by     inheritance.
+  -> Polymorphism refers to the ability of an object to take on many forms. Polymorphism normally occurs when we have many classes that are related to each other by     inheritance.
 
     class Animal {
       public void animalSound() {
@@ -136,7 +136,7 @@ POLYMORPHISM
     
 INTERFACE
 
-  An interface is a collection of abstract methods. In other words, an interface is a completely "abstract class" used to group related methods with empty bodies.
+  -> An interface is a collection of abstract methods. In other words, an interface is a completely "abstract class" used to group related methods with empty bodies.
 
     // create an interface
     interface Language {
