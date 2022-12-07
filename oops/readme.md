@@ -6,8 +6,8 @@ ENCAPSULATION
   
   -> TO Achive this: 
   
-      1> Declare class variables/attributes as private.
-      2> Provide public get and set methods to access and update the value of a private variable.
+  1> Declare class variables/attributes as private.
+  2> Provide public get and set methods to access and update the value of a private variable.
       
       
     public class Student {
