@@ -1,11 +1,28 @@
 ENCAPSULATION
 
   -> Information Hiding in Java
+  
   -> to ensure that "sensitive" data is hidden from users.
   
   -> TO Achive this: 
+  
       1> Declare class variables/attributes as private.
       2> Provide public get and set methods to access and update the value of a private variable.
+      
+      
+    public class Student {
+      private String name; // private = restricted access
+
+      // Getter
+      public String getName() {
+        return name;
+      }
+
+      // Setter
+      public void setName(String newName) {
+        this.name = newName;
+      }
+    }
 
 
 INHERITANCE
