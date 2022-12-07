@@ -109,7 +109,7 @@ POLYMORPHISM
     
 INTERFACE
 
-  
+  An interface is a collection of abstract methods. In other words, an interface is a completely "abstract class" used to group related methods with empty bodies.
 
     // create an interface
     interface Language {
