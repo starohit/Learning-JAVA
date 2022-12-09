@@ -1,4 +1,4 @@
-T E R M S   I N   O O P S  :
+TERMS   IN   OOPS  :
 ------------------------------------------
 
 ENCAPSULATION
