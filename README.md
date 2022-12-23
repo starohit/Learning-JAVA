@@ -3,10 +3,6 @@
 ## revision
 
 
-on the point
-
-
-chase
-
+ Chase
 
     join the journey........
