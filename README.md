@@ -12,3 +12,5 @@
 
 day 1
      sliding window
+day2 
+     confuse af
