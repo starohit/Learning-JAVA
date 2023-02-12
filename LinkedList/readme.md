@@ -1,4 +1,4 @@
-reversing a linked list
+## reversing a linked list
 
     public static Node reverseList(Node head) {
         Node prev = null;
@@ -12,7 +12,7 @@ reversing a linked list
         return prev;
     }
     
-finding middle element
+## finding middle element
 
     public Node findMiddle(Node head) {
         Node slow = head;
@@ -24,7 +24,7 @@ finding middle element
         return slow;
     }
     
-circular or not
+## circular or not
 
     public boolean hasCycle(Node head) {
         if (head == null || head.next == null) {
