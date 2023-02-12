@@ -42,7 +42,7 @@
         return true;
     }
     
-  my method
+###  my methods 
   
     public boolean hasCycle(Node head) {
         if (head == null) {
