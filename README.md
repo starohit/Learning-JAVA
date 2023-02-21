@@ -12,6 +12,8 @@
           Algorithms: Linear search, Binary search
           
           
+          every thing is judt an implementation of array
+          
           Day 2: Linked Lists
 
           Introduction to linked lists and the difference between arrays and linked lists
