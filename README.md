@@ -3,7 +3,7 @@
   ## revision DSA
 
 
-         ?? Day 1: Arrays
+         Day 1: Arrays
 
           Introduction to arrays and how they are used in Java
           Creating and initializing arrays in Java
