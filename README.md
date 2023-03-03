@@ -1,6 +1,6 @@
 # Learning-JAVA
 
-  ## revision DSA
+  ## Revision DSA
 
 
           Day 1: Arrays
