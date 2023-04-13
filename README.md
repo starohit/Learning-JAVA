@@ -61,4 +61,15 @@
           Common graph operations (e.g., traversal, searching, shortest path, etc.)
           Algorithms: Dijkstra's Shortest Path, Prim's Minimum Spanning Tree, Kruskal's Minimum Spanning Tree
 
-  
+      Dyanmic P
+               Start by understanding the concept of recursion and how it works. This is because dynamic programming involves solving problems by breaking them down into smaller sub-problems, which are often solved recursively.
+
+         Once you understand recursion, learn about memoization, which is a technique used to optimize recursive algorithms. Memoization involves storing the results of expensive function calls and returning the cached result when the same inputs occur again.
+
+         After understanding memoization, start solving some basic dynamic programming problems that involve computing Fibonacci numbers, factorial, etc. These problems will help you understand how to use memoization to optimize recursive algorithms.
+
+         As you get comfortable with solving basic problems, move on to more complex problems that require a deeper understanding of dynamic programming concepts, such as the knapsack problem, longest common subsequence, matrix chain multiplication, etc.
+
+         Practice, practice, practice! Dynamic programming requires a lot of practice to master. So, keep solving problems, analyzing the time and space complexity of your solutions, and optimizing them as much as possible.
+
+         Finally, keep reading and learning from different resources, such as textbooks, online courses, and blogs. This will help you stay updated with the latest algorithms and techniques used in dynamic programming.
