@@ -61,7 +61,8 @@
           Common graph operations (e.g., traversal, searching, shortest path, etc.)
           Algorithms: Dijkstra's Shortest Path, Prim's Minimum Spanning Tree, Kruskal's Minimum Spanning Tree
 
-      Dyanmic P
+   Dyanmic P
+   
                Start by understanding the concept of recursion and how it works. This is because dynamic programming involves solving problems by breaking them down into smaller sub-problems, which are often solved recursively.
 
          Once you understand recursion, learn about memoization, which is a technique used to optimize recursive algorithms. Memoization involves storing the results of expensive function calls and returning the cached result when the same inputs occur again.
