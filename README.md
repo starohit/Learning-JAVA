@@ -61,7 +61,7 @@
           Common graph operations (e.g., traversal, searching, shortest path, etc.)
           Algorithms: Dijkstra's Shortest Path, Prim's Minimum Spanning Tree, Kruskal's Minimum Spanning Tree
 
-   Dyanmic P
+   ###Dyanmic Programing
    
          1. Start by understanding the concept of recursion and how it works. This is because dynamic programming involves solving problems by breaking them down into smaller sub-problems, which are often solved recursively.
 
