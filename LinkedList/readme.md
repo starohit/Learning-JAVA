@@ -12,6 +12,7 @@
         return prev;
     }
     
+    
     public ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) {
             return head;
@@ -21,6 +22,69 @@
         head.next = null;
         return newHead;
     }
+    
+    
+    full program 
+    
+    class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int x) {
+            val = x;
+        }
+    }
+
+    public class ReverseLinkedList {
+        public static void main(String[] args) {
+            // Create a linked list
+            ListNode head = new ListNode(1);
+            head.next = new ListNode(2);
+            head.next.next = new ListNode(3);
+            head.next.next.next = new ListNode(4);
+
+            // Print the original linked list
+            System.out.println("Original Linked List:");
+            printList(head);
+
+            // Reverse the linked list
+            head = reverseList(head);
+
+            // Print the reversed linked list
+            System.out.println("Reversed Linked List:");
+            printList(head);
+        }
+
+        // Function to reverse a linked list using recursion
+        public static ListNode reverseList(ListNode head) {
+            // Base case
+            if (head == null || head.next == null) {
+                return head;
+            }
+
+            // Reverse the rest of the linked list
+            ListNode newHead = reverseList(head.next);
+
+            // Set the next node's next reference to point to the current node
+            head.next.next = head;
+
+            // Set the current node's next reference to null
+            head.next = null;
+
+            // Return the new head of the reversed linked list
+            return newHead;
+        }
+
+        // Function to print a linked list
+        public static void printList(ListNode head) {
+            while (head != null) {
+                System.out.print(head.val + " ");
+                head = head.next;
+            }
+            System.out.println();
+        }
+    }
+
 
     
 ## finding middle element
