@@ -12,7 +12,7 @@
           Algorithms: Linear search, Binary search
           
           
-          every thing is judt an implementation of array
+          every thing is just an implementation of array
           
           Day 2: Linked Lists
 
