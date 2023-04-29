@@ -133,3 +133,36 @@
         return false;
     }
 
+## reorder a linked list
+
+        public void reorderList(ListNode head) {
+            if (head == null || head.next == null) {
+                return;
+            }
+            // Reverse the linked list
+            ListNode prev = null, curr = head;
+            while (curr != null) {
+                ListNode next = curr.next;
+                curr.next = prev;
+                prev = curr;
+                curr = next;
+            }
+            // Merge the nodes from each half of the linked list
+            ListNode l1 = head;
+            ListNode l2 = prev;
+            ListNode cur = new ListNode(0);
+            while (l1 != null || l2 != null) {
+                if (l2 != null) {
+                    cur.next = l2;
+                    cur = cur.next;
+                    l2 = l2.next;
+                }
+                if (l1 != null) {
+                    cur.next = l1;
+                    cur = cur.next;
+                    l1 = l1.next;
+                }
+            }
+            // Set the next of the last node to null
+            cur.next = null;
+        }
